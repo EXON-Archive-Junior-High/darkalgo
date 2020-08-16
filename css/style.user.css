@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           DarkAlgo
 @namespace      https://github.com/1-EXON/DarkAlgo
-@version        1.0.0
+@version        1.0.1
 @description    다크다크한 백준 다크 확장 프로그램
 @author         EXON
 ==/UserStyle== */
@@ -16,7 +16,7 @@
         color: black;
     }
 
-    .pace-done, .container, .topbar, .navbar, .navbar-default, .mega-menu, .header, .content-sm, .content, .footer, .container .content, .container .content-sm, .wrapper, th, thead, tr, td, .list_problem_id, .table .table-striped .table-bordered .sortable-table .clickable-table, #problemset, .col-md-12, .table-responsive, .label .label-purple .problem-label,  #categorylist tbody tr td, body > div.wrapper > div.container.content > div:nth-child(5) > div > div > table > tbody > tr > td, body > div.wrapper > div.container.content > div.row > div:nth-child(2) > div > table > tbody > tr > td, #status-table > tbody > tr > td, body > div.wrapper > div.container.content > div > div:nth-child(3) > div{
+    .pace-done, .container, .topbar, .navbar, .navbar-default, .mega-menu, .header, .content-sm, .content, .footer, .container .content, .container .content-sm, .wrapper, th, thead, tr, td, .list_problem_id, .table .table-striped .table-bordered .sortable-table .clickable-table, #problemset, .col-md-12, .table-responsive, .label .label-purple .problem-label,  #categorylist tbody tr td, body > div.wrapper > div.container.content > div:nth-child(5) > div > div > table > tbody > tr > td, body > div.wrapper > div.container.content > div.row > div:nth-child(2) > div > table > tbody > tr > td, #status-table > tbody > tr > td, body > div.wrapper > div.container.content > div > div:nth-child(3) > div, #ranklist > tbody > tr > td{
         background-color: #2b2b2b;
     }
 
@@ -31,11 +31,15 @@
 
     .title-center,
     .parallax-counter-v1, .parallaxBgs, .username, .title-v2 , .space-lg-hor, a, .headline, h2, .title-v2 .title-center, 
-    .dropdown-toggle, th, td, p, li{
-        color: white;
+    .dropdown-toggle, th, td, p, li, label, legend ,code, body > div.wrapper > div.container.content > div.row > div:nth-child(1) > ul > li > a, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li > a, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li.dropdown.mega-menu-fullwidth.active.open > ul > li > div > div > div > div > ul > li > h3, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li.dropdown.mega-menu-fullwidth.active.open > ul > li > div > div > div > div > ul > li > a, body > div.wrapper > div.container.content > div.row > div:nth-child(1) > div > blockquote, body > div.wrapper > div.container.content > div.row > div:nth-child(2) > div:nth-child(3) > div.col-md-9 > div > div.panel-heading > h3, span{
+        color: #c4c4c4;
     }
 
-    body > div.wrapper > div.container.content > div:nth-child(3) > div.col-md-10 > ul > li > a, body > div.wrapper > div.header.no-print > div.topbar > div > ul > li > a {
+    body > div.wrapper > div.container.content > div:nth-child(3) > div.col-md-10 > ul > li > a, body > div.wrapper > div.header.no-print > div.topbar > div > ul > li > a  {
         color: #a1a1a1;
+    }
+    
+    body > div.wrapper > div.container.content > div.row > div > div > div.col-md-9 > div > div.panel-heading {
+        background-color: #4d4d4d;
     }
 }
