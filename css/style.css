@@ -1,16 +1,23 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-}
-
+html,
 body {
-  min-width: 300px;
-  min-height: 420px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: black;
 }
 
-h1, p, h2, h3, h4, div {
-  text-align: center;
-  font-size: 1000px;
+.pace-done, .container, .topbar, .navbar, .navbar-default, .mega-menu, .header, .content-sm, .content, .footer, .container .content, .container .content-sm, .wrapper {
+    background-color: black;
+}
+
+.blog-twitter-inner,
+.loginbar {
+    color: black;
+}
+
+.title-center,
+.parallax-counter-v1, .parallaxBgs, .username, .title-v2 , .space-lg-hor, a, .headline, h2, .title-v2 .title-center, 
+.dropdown-toggle {
+    color: white;
 }
