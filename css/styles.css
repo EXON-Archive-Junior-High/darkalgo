@@ -1,0 +1,67 @@
+@import "reset.css";
+
+body {
+    font-family: 'Noto Sans KR', sans-serif !important;
+    margin: 0;
+}
+
+.top {
+    border-radius: 15px;
+    margin: 20px 20px;
+    background: rgb(85, 85, 85);
+    background: linear-gradient(30deg, rgba(85, 85, 85) 0%, rgba(0, 0, 0, 0.918) 100%);
+    -webkit-box-shadow: 0px 10px 62px -5px rgba(176,176,176,1);
+    -moz-box-shadow: 0px 10px 62px -5px rgba(176,176,176,1);
+    box-shadow: 0px 10px 62px -5px rgba(176,176,176,1);
+    text-align: center;
+    height: 300px;
+}
+
+.top-title {
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.images {
+    text-align: center;
+}
+
+.image {
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+}
+
+.top-content {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px; 
+}
+
+.mains-title {
+    margin-top: 10px;
+}
+
+.main {
+    padding-left: 20px;
+    text-align: center;
+    float: left;
+}
+
+.col-3 .p-1 {
+    float: left;
+}
+
+.bottom {
+    padding-bottom: -100px;
+}
+
+.bottom-text {
+    padding-top: 100px;
+}
+
+.btn .btn-dark .btn-floating {
+    margin-bottom: 100px;
+}
