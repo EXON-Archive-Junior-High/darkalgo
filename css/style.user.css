@@ -5,34 +5,37 @@
 @description    다크다크한 백준 다크 확장 프로그램
 @author         EXON
 ==/UserStyle== */
-html,
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    color: black;
-}
 
-.pace-done, .container, .topbar, .navbar, .navbar-default, .mega-menu, .header, .content-sm, .content, .footer, .container .content, .container .content-sm, .wrapper, th, thead, tr, td, .list_problem_id, .table .table-striped .table-bordered .sortable-table .clickable-table, #problemset, .col-md-12, .table-responsive, .label .label-purple .problem-label,  #categorylist tbody tr td, body > div.wrapper > div.container.content > div:nth-child(5) > div > div > table > tbody > tr > td, body > div.wrapper > div.container.content > div.row > div:nth-child(2) > div > table > tbody > tr > td, #status-table > tbody > tr > td, body > div.wrapper > div.container.content > div > div:nth-child(3) > div{
-    background-color: #2b2b2b;
-}
+@-moz-document url-prefix("https://www.acmicpc.net/") {
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        color: black;
+    }
 
-#problemset tbody tr td, body > div.wrapper > div.container.content > div.row > div:nth-child(3) > div > table > tbody > tr > td {
-    background-color: #2b2b2b;
-}
+    .pace-done, .container, .topbar, .navbar, .navbar-default, .mega-menu, .header, .content-sm, .content, .footer, .container .content, .container .content-sm, .wrapper, th, thead, tr, td, .list_problem_id, .table .table-striped .table-bordered .sortable-table .clickable-table, #problemset, .col-md-12, .table-responsive, .label .label-purple .problem-label,  #categorylist tbody tr td, body > div.wrapper > div.container.content > div:nth-child(5) > div > div > table > tbody > tr > td, body > div.wrapper > div.container.content > div.row > div:nth-child(2) > div > table > tbody > tr > td, #status-table > tbody > tr > td, body > div.wrapper > div.container.content > div > div:nth-child(3) > div{
+        background-color: #2b2b2b;
+    }
 
-.blog-twitter-inner,
-.loginbar {
-    color: black;
-}
+    #problemset tbody tr td, body > div.wrapper > div.container.content > div.row > div:nth-child(3) > div > table > tbody > tr > td {
+        background-color: #2b2b2b;
+    }
 
-.title-center,
-.parallax-counter-v1, .parallaxBgs, .username, .title-v2 , .space-lg-hor, a, .headline, h2, .title-v2 .title-center, 
-.dropdown-toggle, th, td, p, li{
-    color: white;
-}
+    .blog-twitter-inner,
+    .loginbar {
+        color: black;
+    }
 
-body > div.wrapper > div.container.content > div:nth-child(3) > div.col-md-10 > ul > li > a, body > div.wrapper > div.header.no-print > div.topbar > div > ul > li > a {
-    color: #a1a1a1;
+    .title-center,
+    .parallax-counter-v1, .parallaxBgs, .username, .title-v2 , .space-lg-hor, a, .headline, h2, .title-v2 .title-center, 
+    .dropdown-toggle, th, td, p, li{
+        color: white;
+    }
+
+    body > div.wrapper > div.container.content > div:nth-child(3) > div.col-md-10 > ul > li > a, body > div.wrapper > div.header.no-print > div.topbar > div > ul > li > a {
+        color: #a1a1a1;
+    }
 }
