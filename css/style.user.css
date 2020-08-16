@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           DarkAlgo
 @namespace      https://github.com/1-EXON/DarkAlgo
-@version        1.0.1
+@version        1.0.2
 @description    다크다크한 백준 다크 확장 프로그램
 @author         EXON
 ==/UserStyle== */
@@ -16,11 +16,15 @@
         color: black;
     }
 
-    .pace-done, .container, .topbar, .navbar, .navbar-default, .mega-menu, .header, .content-sm, .content, .footer, .container .content, .container .content-sm, .wrapper, th, thead, tr, td, .list_problem_id, .table .table-striped .table-bordered .sortable-table .clickable-table, #problemset, .col-md-12, .table-responsive, .label .label-purple .problem-label,  #categorylist tbody tr td, body > div.wrapper > div.container.content > div:nth-child(5) > div > div > table > tbody > tr > td, body > div.wrapper > div.container.content > div.row > div:nth-child(2) > div > table > tbody > tr > td, #status-table > tbody > tr > td, body > div.wrapper > div.container.content > div > div:nth-child(3) > div, #ranklist > tbody > tr > td{
+    .pace-done, .container, .topbar, .navbar, .navbar-default, .mega-menu, .header, .content-sm, .content, .footer, .container .content, .container .content-sm, .wrapper, th, thead, tr, td, .list_problem_id, .table .table-striped .table-bordered .sortable-table .clickable-table, #problemset, .col-md-12, .table-responsive, .label .label-purple .problem-label,  #categorylist tbody tr td, body > div.wrapper > div.container.content > div:nth-child(5) > div > div > table > tbody > tr > td, body > div.wrapper > div.container.content > div.row > div:nth-child(2) > div > table > tbody > tr > td, #status-table > tbody > tr > td, body > div.wrapper > div.container.content > div > div:nth-child(3) > div, #ranklist > tbody > tr > td, body > div.wrapper > div.container.content > div > div.col-md-3 > ul > li > a, #table_body > tr > td, body > div.wrapper > div.container.content > div.row > div > div{
         background-color: #2b2b2b;
     }
+    
+    input{
+        background-color: #cccccc;
+    }
 
-    #problemset tbody tr td, body > div.wrapper > div.container.content > div.row > div:nth-child(3) > div > table > tbody > tr > td {
+    #problemset tbody tr td, body > div.wrapper > div.container.content > div.row > div:nth-child(3) > div > table > tbody > tr > td, #favorite_button {
         background-color: #2b2b2b;
     }
 
@@ -28,18 +32,58 @@
     .loginbar {
         color: black;
     }
+    
+
 
     .title-center,
     .parallax-counter-v1, .parallaxBgs, .username, .title-v2 , .space-lg-hor, a, .headline, h2, .title-v2 .title-center, 
-    .dropdown-toggle, th, td, p, li, label, legend ,code, body > div.wrapper > div.container.content > div.row > div:nth-child(1) > ul > li > a, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li > a, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li.dropdown.mega-menu-fullwidth.active.open > ul > li > div > div > div > div > ul > li > h3, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li.dropdown.mega-menu-fullwidth.active.open > ul > li > div > div > div > div > ul > li > a, body > div.wrapper > div.container.content > div.row > div:nth-child(1) > div > blockquote, body > div.wrapper > div.container.content > div.row > div:nth-child(2) > div:nth-child(3) > div.col-md-9 > div > div.panel-heading > h3, span{
-        color: #c4c4c4;
-    }
+    .dropdown-toggle, th, td, p, li, label, legend ,code, body > div.wrapper > div.container.content > div.row > div:nth-child(1) > ul > li > a, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li > a, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li.dropdown.mega-menu-fullwidth.active.open > ul > li > div > div > div > div > ul > li > h3, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li.dropdown.mega-menu-fullwidth.active.open > ul > li > div > div > div > div > ul > li > a, body > div.wrapper > div.container.content > div.row > div > div > blockquote, body > div.wrapper > div.container.content > div.row > div > div > div.col-md-9 > div > div.panel-heading > h3, span, #source > ul > li > a, #problem_association > ul > li > a, #problem_tags > ul > li > a{
+        color: #c9c9c9;
 
-    body > div.wrapper > div.container.content > div:nth-child(3) > div.col-md-10 > ul > li > a, body > div.wrapper > div.header.no-print > div.topbar > div > ul > li > a  {
-        color: #a1a1a1;
+
+    }
+    
+    body > div.wrapper > div.container.content > div.row > div > div > div.panel-heading > h4 > a > span, body > div.wrapper > div.container.content > div.row > div > div > div.panel-heading > h4 > a, h3 {
+        color: white;
+    }
+    
+    #problemset > tbody > tr > td, body > div.wrapper > div.container.content > div > div > div > ul > li > a, #categorylist > tbody > tr > td, #problemset > thead > tr > td, body > div.wrapper > div.container.content > div:nth-child(5) > div > div > table > tbody > tr > td{
+        border-right:none;
+        border-left:none;
+        border-top:none;
+        border-bottom:none;
+        background-color: #262626;
+    }
+    
+    #categorylist > thead > tr > th, #problemset > thead > tr > th,  body > div.wrapper > div.container.content > div > div > div > table > thead > tr > th {
+        background-color: #1c1c1c;
+    }
+    
+
+    body > div.wrapper > div.container.content > div > div.col-md-10 > ul > li > a, body > div.wrapper > div.header.no-print > div.topbar > div > ul > li > a, text, H1, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li.dropdown.mega-menu-fullwidth.open > ul > li > div > div > div > div> ul > li > a, h3, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li.dropdown.mega-menu-fullwidth.open > ul > li > div > div > div > div > ul > li > h3{
+        fill: #cccccc;
+        color: #cccccc;
     }
     
     body > div.wrapper > div.container.content > div.row > div > div > div.col-md-9 > div > div.panel-heading {
         background-color: #4d4d4d;
     }
+    
+    body > div.wrapper > div.container.content > div.row > div > div > div.col-md-9 > div > div.panel-body, rect, #chart_div > div > div > div > svg > rect{
+        fill: #383838;
+        background-color: #383838;
+    }
+    
+    #sample-input-1, #sample-output-1, #sample-input-2, #sample-output-2, #sample-output-3, #sample-input-3{
+        fill: #383838;
+        background-color: #383838;
+        color: #cccccc;
+    }
+    
+    body > div.wrapper > div.container.content > div.row > div > div > div.panel-heading {
+        background-color: #474747;
+    }
+    
+    
+
 }
