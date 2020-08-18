@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           DarkAlgo
 @namespace      https://github.com/1-EXON/DarkAlgo
-@version        1.2.3
+@version        1.2.4
 @description    다크다크한 백준 다크 확장 프로그램
 @author         EXON
 ==/UserStyle== */
@@ -16,8 +16,9 @@
         color: black;
     }
 
-    .pace-done, .container, .topbar, .navbar, .navbar-default, .mega-menu, .header, .content-sm, .content, .footer, .container .content, .container .content-sm, .wrapper, th, thead, tr, td, .list_problem_id, .table .table-striped .table-bordered .sortable-table .clickable-table, #problemset, .col-md-12, .table-responsive, .label .label-purple .problem-label,  #categorylist tbody tr td, body > div.wrapper > div.container.content > div:nth-child(5) > div > div > table > tbody > tr > td, body > div.wrapper > div.container.content > div.row > div:nth-child(2) > div > table > tbody > tr > td, #status-table > tbody > tr > td, body > div.wrapper > div.container.content > div > div > div, #ranklist > tbody > tr > td, body > div.wrapper > div.container.content > div > div.col-md-3 > ul > li > a, #table_body > tr > td, body > div.wrapper > div.container.content > div.row > div > div, #unlike-button, #like-button, body > div, .breadcrumbs, body > div.wrapper > div.profile.container.content > div.row > div > div > div.profile-bio{
+    .pace-done, .container, .topbar, .navbar, .navbar-default, .mega-menu, .header, .content-sm, .content, .footer, .container .content, .container .content-sm, .wrapper, th, thead, tr, td, .list_problem_id, .table .table-striped .table-bordered .sortable-table .clickable-table, #problemset, .col-md-12, .table-responsive, .label .label-purple .problem-label,  #categorylist tbody tr td, body > div.wrapper > div.container.content > div:nth-child(5) > div > div > table > tbody > tr > td, body > div.wrapper > div.container.content > div.row > div:nth-child(2) > div > table > tbody > tr > td, #status-table > tbody > tr > td, body > div.wrapper > div.container.content > div > div > div, #ranklist > tbody > tr > td, body > div.wrapper > div.container.content > div > div.col-md-3 > ul > li > a, #table_body > tr > td, body > div.wrapper > div.container.content > div.row > div > div, #unlike-button, #like-button, body > div, .breadcrumbs, body > div.wrapper > div.profile.container.content > div.row > div > div > div.profile-bio, #lang-select-button, body > div.wrapper > div.breadcrumbs{
         background-color: #2b2b2b;
+        background: #2b2b2b;
     }
     
     input{
@@ -51,6 +52,7 @@
         /*border-top:none;
         border-bottom:none;*/
         background-color: #262626;
+        border-color: #cccccc;
     }
     
     #categorylist > thead > tr > th, #problemset > thead > tr > th,  body > div.wrapper > div.container.content > div > div > div > table > thead > tr > th {
@@ -72,7 +74,7 @@
         background-color: #383838;
     }
     
-    #sample-input-1, #sample-output-1, #sample-input-2, #sample-output-2, #sample-output-3, #sample-input-3, body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-heading.overflow-h, #sample-input-4, #sample-output-4, body > div.wrapper > div.container.content > div > div > div{
+    #sample-input-1, #sample-output-1, #sample-input-2, #sample-output-2, #sample-output-3, #sample-input-3, body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-heading.overflow-h, #sample-input-4, #sample-output-4, body > div.wrapper > div.container.content > div > div > div,#sample-input-5,#sample-input-6,#sample-output-5,#sample-output-6{
         fill: #383838;
         background-color: #383838;
         color: #cccccc;
