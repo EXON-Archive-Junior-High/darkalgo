@@ -1,14 +1,19 @@
 {
     "manifest_version": 2,
    
-    "name": "Modify CSS and HTML",
+    "name": "DarkAlgo",
     "version": "0.1.0",
-    "description": "Lateral blog post demo extension",
+    "description": "Algo with Dark",
+    "permissions": [
+      "storage",
+      "unlimitedStorage",
+      "https://www.acmicpc.net/*"
+    ],
+
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
    
-    "content_scripts": [{
-      "css": ["styles.css"],
-      "js": ["content.js"],
-      "matches": ["https://www.acmicpc.net/*"]
-    }]
    
   }

@@ -7,7 +7,8 @@ body {
     color: black;
 }
 
-.pace-done, .container, .topbar, .navbar, .navbar-default, .mega-menu, .header, .content-sm, .content, .footer, .container .content, .container .content-sm, .wrapper, th, thead, tr, td, .list_problem_id, .table .table-striped .table-bordered .sortable-table .clickable-table, #problemset, .col-md-12, .table-responsive, .label .label-purple .problem-label,  #categorylist tbody tr td, body > div.wrapper > div.container.content > div:nth-child(5) > div > div > table > tbody > tr > td, body > div.wrapper > div.container.content > div.row > div:nth-child(2) > div > table > tbody > tr > td, #status-table > tbody > tr > td, body > div.wrapper > div.container.content > div > div > div, #ranklist > tbody > tr > td, body > div.wrapper > div.container.content > div > div.col-md-3 > ul > li > a, #table_body > tr > td, body > div.wrapper > div.container.content > div.row > div > div, #unlike-button, #like-button, body > div, .breadcrumbs, body > div.wrapper > div.profile.container.content > div.row > div > div > div.profile-bio, #lang-select-button, body > div.wrapper > div.breadcrumbs{
+.pace-done, .container, .topbar, .navbar, .navbar-default, .mega-menu, .header, .content-sm, .content, .footer, .container .content, .container .content-sm, .wrapper, th, thead, tr, td, .list_problem_id, .table .table-striped .table-bordered .sortable-table .clickable-table, #problemset, .col-md-12, .table-responsive, .label .label-purple .problem-label,  #categorylist tbody tr td, body > div.wrapper > div.container.content > div:nth-child(5) > div > div > table > tbody > tr > td, body > div.wrapper > div.container.content > div.row > div:nth-child(2) > div > table > tbody > tr > td, #status-table > tbody > tr > td, body > div.wrapper > div.container.content > div > div > div, #ranklist > tbody > tr > td, body > div.wrapper > div.container.content > div > div.col-md-3 > ul > li > a, #table_body > tr > td, body > div.wrapper > div.container.content > div.row > div > div, #unlike-button, #like-button, body > div, .breadcrumbs, body > div.wrapper > div.profile.container.content > div.row > div > div > div.profile-bio, #lang-select-button, body > div.wrapper > div.breadcrumbs,
+body > div.wrapper{
     background-color: #2b2b2b;
     background: #2b2b2b;
 }
@@ -29,7 +30,20 @@ input{
 
 .title-center,
 .parallax-counter-v1, .parallaxBgs, .username, .title-v2 , .space-lg-hor, a, .headline, h2, .title-v2 .title-center, 
-.dropdown-toggle, th, td, p, li, label, legend ,code, body > div.wrapper > div.container.content > div.row > div:nth-child(1) > ul > li > a, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li > a, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li.dropdown.mega-menu-fullwidth.active.open > ul > li > div > div > div > div > ul > li > h3, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li.dropdown.mega-menu-fullwidth.active.open > ul > li > div > div > div > div > ul > li > a, body > div.wrapper > div.container.content > div.row > div > div > blockquote, body > div.wrapper > div.container.content > div.row > div > div > div.col-md-9 > div > div.panel-heading > h3, span, #source > ul > li > a, #problem_association > ul > li > a, #problem_tags > ul > li > a, body > div.wrapper > div.container.content > div.row > div > ul > li > a, body > div.wrapper > div.container.content > div > div.col-md-9.md-margin-bottom-60 > div > div > h2 > a, body > div.wrapper > div.container.content > div > div.col-md-9.md-margin-bottom-60 > div > div > div.blog-content > div > h2, body > div.wrapper > div.container.content > div > div.col-md-9.md-margin-bottom-60 > div > div > div > ul > li > a, body > div.wrapper > div.container.content > div > div.col-md-3.magazine-page.no-print > div > dl > dd > p > a, body > div.wrapper > div.container.content > div.row > div > div > div > div > div.caption > h3 > a, h1, body > div.wrapper > div.breadcrumbs > div > h1, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.collapse.navbar-collapse.navbar-responsive-collapse > ul > li.dropdown.mega-menu-fullwidth > a, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.collapse.navbar-collapse.navbar-responsive-collapse > ul > li > a, body > div.wrapper > div.container.content > div > div.col-md-9.md-margin-bottom-60 > div.blog.margin-bottom-40 > h2, body > div.wrapper > div.container.content > div > div.col-md-9.md-margin-bottom-60 > div.blog.margin-bottom-40 > div.blog-content > div > h3, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.collapse.navbar-collapse.navbar-responsive-collapse > ul > li.dropdown.mega-menu-fullwidth > ul > li > div > div > div > div > ul > li > a, body > div.wrapper > div.container.content > div > div > div > a, body > div.wrapper > div.container.content-sm > div > h2{
+.dropdown-toggle, th, td, p, li, label, legend ,code, body > div.wrapper > div.container.content > div.row > div > ul > li > a, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li > a, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li.dropdown.mega-menu-fullwidth.active.open > ul > li > div > div > div > div > ul > li > h3, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li.dropdown.mega-menu-fullwidth.active.open > ul > li > div > div > div > div > ul > li > a, body > div.wrapper > div.container.content > div.row > div > div > blockquote, body > div.wrapper > div.container.content > div.row > div > div > div.col-md-9 > div > div.panel-heading > h3, span, #source > ul > li > a, #problem_association > ul > li > a, #problem_tags > ul > li > a, body > div.wrapper > div.container.content > div.row > div > ul > li > a, body > div.wrapper > div.container.content > div > div.col-md-9.md-margin-bottom-60 > div > div > h2 > a, body > div.wrapper > div.container.content > div > div.col-md-9.md-margin-bottom-60 > div > div > div.blog-content > div > h2, body > div.wrapper > div.container.content > div > div.col-md-9.md-margin-bottom-60 > div > div > div > ul > li > a, body > div.wrapper > div.container.content > div > div.col-md-3.magazine-page.no-print > div > dl > dd > p > a, body > div.wrapper > div.container.content > div.row > div > div > div > div > div.caption > h3 > a, h1, body > div.wrapper > div.breadcrumbs > div > h1, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.collapse.navbar-collapse.navbar-responsive-collapse > ul > li.dropdown.mega-menu-fullwidth > a, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.collapse.navbar-collapse.navbar-responsive-collapse > ul > li > a, body > div.wrapper > div.container.content > div > div.col-md-9.md-margin-bottom-60 > div.blog.margin-bottom-40 > h2, body > div.wrapper > div.container.content > div > div.col-md-9.md-margin-bottom-60 > div.blog.margin-bottom-40 > div.blog-content > div > h3, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.collapse.navbar-collapse.navbar-responsive-collapse > ul > li.dropdown.mega-menu-fullwidth > ul > li > div > div > div > div > ul > li > a, body > div.wrapper > div.container.content > div > div > div > a, body > div.wrapper > div.container.content-sm > div > h2, body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.navbar-collapse.navbar-responsive-collapse.collapse.in > ul > li.dropdown.mega-menu-fullwidth > ul > li > div > div > div > div > ul > li > h3,
+#problemset > tbody > tr > td > a, #categorylist > tbody > tr > td > a, body > div.wrapper > div.container.content > div > div > div > table > tbody > tr > td > a,
+#menu2 > li > a, h1, body > div.wrapper > div.container.content > div.row > div > div > h1, #statics > tbody > tr > td > a, body > div.wrapper > div.container.content > div > div.col-md-9.md-margin-bottom-60 > div > div > div > ul > li, body > div.wrapper > div.container.content > div > div.col-md-9.md-margin-bottom-60 > div > div > div.blog-content, p, body > div.wrapper > div.container.content > div > div.col-md-9.md-margin-bottom-60 > div > div > div.blog-content > p,
+body > div.wrapper > div.container.content > div > div.col-md-9.md-margin-bottom-60 > div > div > div.blog-content > div > h1,
+#signupForm > legend, body > div.wrapper > div.container.content > div > div.col-md-9 > div > div > div > h2,
+body > div.wrapper > div.container.content > div > div.col-md-9 > div > div > legend, body > div.wrapper > div.container.content > div > div.col-md-9 > div > div.col-md-12.help > p,
+body > div.wrapper > div.container.content > div > div.col-md-9 > div > div.col-md-12.help > ul > li,
+body > div.wrapper > div.container.content > div > div.col-md-9 > div > div > div > div > legend, legend,
+body > div.wrapper > div.container.content > div > div.col-md-9 > div > div > form > legend, body > div.wrapper > div.profile.container.content > div.row > div > div > div.profile-bio > div > div.col-md-10 > h2,
+body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-body,
+body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-body > p, body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-body > ul > li,
+body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-body > ul > li > ul > li, body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-body > ul > li > a,
+body > div.wrapper > div.profile.container.content > div.row > div > div > div.profile-bio > div > div.col-md-10 > p,
+body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.collapse.navbar-collapse.navbar-responsive-collapse > ul > li.dropdown.mega-menu-fullwidth > ul > li > div > div > div > div > ul > li > h3{
     color: #c9c9c9;
 }
 
@@ -37,7 +51,8 @@ body > div.wrapper > div.container.content > div.row > div > div > div.panel-hea
     color: white;
 }
 
-#problemset > tbody > tr > td, body > div.wrapper > div.container.content > div > div > div > ul > li > a, #categorylist > tbody > tr > td, #problemset > thead > tr > td, body > div.wrapper > div.container.content > div:nth-child(5) > div > div > table > tbody > tr > td{
+#problemset > tbody > tr > td, body > div.wrapper > div.container.content > div > div > div > ul > li > a, #categorylist > tbody > tr > td, #problemset > thead > tr > td, body > div.wrapper > div.container.content > div > div > div > table > tbody > tr > td,
+#menu2{
     border-right:none;
     border-left:none;
     /*border-top:none;
@@ -46,7 +61,8 @@ body > div.wrapper > div.container.content > div.row > div > div > div.panel-hea
     border-color: #cccccc;
 }
 
-#categorylist > thead > tr > th, #problemset > thead > tr > th,  body > div.wrapper > div.container.content > div > div > div > table > thead > tr > th {
+#categorylist > thead > tr > th, #problemset > thead > tr > th,  body > div.wrapper > div.container.content > div > div > div > table > thead > tr > th,
+body > div.wrapper > div.container.content > div > div.col-md-9.md-margin-bottom-60 > div > div > div.blog-content > pre {
     background-color: #1c1c1c;
 }
 
@@ -60,12 +76,14 @@ body > div.wrapper > div.container.content > div.row > div > div > div.col-md-9 
     background-color: #4d4d4d;
 }
 
-body > div.wrapper > div.container.content > div.row > div > div > div.col-md-9 > div > div.panel-body, rect, #chart_div > div > div > div > svg > rect, body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-body{
+body > div.wrapper > div.container.content > div.row > div > div > div.col-md-9 > div > div.panel-body, rect, #chart_div > div > div > div > svg > rect, body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-body,
+#problemset > tbody > tr > td > div{
     fill: #383838;
     background-color: #383838;
 }
 
-#sample-input-1, #sample-output-1, #sample-input-2, #sample-output-2, #sample-output-3, #sample-input-3, body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-heading.overflow-h, #sample-input-4, #sample-output-4, body > div.wrapper > div.container.content > div > div > div,#sample-input-5,#sample-input-6,#sample-output-5,#sample-output-6{
+#sample-input-1, #sample-output-1, #sample-input-2, #sample-output-2, #sample-output-3, #sample-input-3, body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-heading.overflow-h, #sample-input-4, #sample-output-4, body > div.wrapper > div.container.content > div > div > div,#sample-input-5,#sample-input-6,#sample-output-5,#sample-output-6,
+#signupForm > div > div > input, #show_languages, #show_languages > div, body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-body{
     fill: #383838;
     background-color: #383838;
     color: #cccccc;
