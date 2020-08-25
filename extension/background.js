@@ -5,6 +5,7 @@ function inject(path, type) {
     chrome.tabs.insertCSS({code: path, runAt: "document_end"});
   }
 }
-chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
-  inject("./styles.css", "file");
+
+chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+  inject("./theme/black.css", "file");
 })

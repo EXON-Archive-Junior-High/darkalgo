@@ -1,0 +1,45 @@
+@import "reset.css";
+
+body {
+    font-family: 'Noto Sans KR', sans-serif !important;
+    margin: 0;
+    background-color: #2f2f2f;
+    color: white;
+    text-align: left;
+}
+
+.top {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: #212121; */
+}
+
+.top-logo {
+    margin-top: 10px;
+    height: 30px;
+}
+
+.top-title {
+    padding-left: 10px;
+    padding-top: 13px;
+    font-size: 20px;
+}
+
+.top-text {
+    padding-left: 10px;
+    padding-top: 19px;
+    font-size: 15px;
+}
+
+.main-info {
+    padding-left: 10px;
+    font-size: 15px;
+    
+}
+
+.line {
+ 
+}

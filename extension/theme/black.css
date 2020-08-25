@@ -43,7 +43,19 @@ body > div.wrapper > div.profile.container.content > div.row > div > div > div.r
 body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-body > p, body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-body > ul > li,
 body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-body > ul > li > ul > li, body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-body > ul > li > a,
 body > div.wrapper > div.profile.container.content > div.row > div > div > div.profile-bio > div > div.col-md-10 > p,
-body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.collapse.navbar-collapse.navbar-responsive-collapse > ul > li.dropdown.mega-menu-fullwidth > ul > li > div > div > div > div > ul > li > h3{
+body > div.wrapper > div.header.no-print > div.navbar.navbar-default.mega-menu > div > div.collapse.navbar-collapse.navbar-responsive-collapse > ul > li.dropdown.mega-menu-fullwidth > ul > li > div > div > div > div > ul > li > h3,
+#description > div.headline > h2, #problem_description > p, #input > div.headline > h2, #problem_input > p,
+#sampleinput1 > div > h2, #output > div.headline > h2, #problem_output > p, #sampleoutput1 > div > h2, h2, #source > div > h2, #source > ul > li, #problem_association > div > h2,
+#problem_tags > div > h2, #problem_tags > div > h2, #problem_memo > div.headline > h2, #submit_form > legend,
+body > div.wrapper > div.container.content > div.row > div > div > div > div > h2, body > div.wrapper > div.container.content > div.row > div.col-md-12.help > p,
+body > div.wrapper > div.container.content > div.row > div.col-md-12.help > div > h2, #sampleinput2 > div > h2, #sampleoutput2 > div > h2,
+#limit > div.headline > h2, #problem_limit > ul > li, #problem_tags > div.spoiler > ul > li > a, #problem_description > ol > li, #hint > div.headline > h2,
+#problem_hint > p, #problem_description > ul > li, #problem_input > ul > li, #problem_output > ul > li,
+#problem_link > div > h2, #problem_link > ul > li > a, body > div.wrapper > div.container.content > div.row > div > div > h3, body > div.wrapper > div.container.content > div.row > div > div > div.panel-body > div.content.post > p,
+body > div.wrapper > div.container.content > div.row > div > div > div.panel-body > div > p, body > div.wrapper > div.container.content > div > div > p,
+#payment-form > fieldset > section > div > label, #sampleinput3 > div > h2, #sampleoutput3 > div > h2, #sampleinput4 > div > h2,
+#sampleinput4 > div > h2, #sampleoutput4 > div > h2, #sampleinput5 > div > h2, #sampleoutput5 > div > h2, #sampleinput6 > div > h2, #sampleoutput6 > div > h2, #sampleinput7 > div > h2,
+#sampleoutput7 > div > h2 {
     color: #c9c9c9;
 }
 
@@ -83,7 +95,10 @@ body > div.wrapper > div.container.content > div.row > div > div > div.col-md-9 
 }
 
 #sample-input-1, #sample-output-1, #sample-input-2, #sample-output-2, #sample-output-3, #sample-input-3, body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-heading.overflow-h, #sample-input-4, #sample-output-4, body > div.wrapper > div.container.content > div > div > div,#sample-input-5,#sample-input-6,#sample-output-5,#sample-output-6,
-#signupForm > div > div > input, #show_languages, #show_languages > div, body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-body{
+#signupForm > div > div > input, #show_languages, #show_languages > div, body > div.wrapper > div.profile.container.content > div.row > div > div > div.row > div > div > div.panel-body,
+#language_chosen > a, #language_chosen > a, #language_chosen > div > ul, #language_chosen > div > ul > li,
+#debug_user_input, #debug_user_output, #problem_description > pre, body > div.wrapper > div.container.content > div > div.col-md-2 > form > div > input, body > div.wrapper > div.container.content > div > div > form > div > div.col-md-4 > div > div > input, body > div.wrapper > div.container.content > div > div > form > div > div.col-md-8 > div.form-group > div > input,
+#payment-form, #payment-form > header, #payment-form > fieldset, #product, #sample-input-7, #sample-output-7{
     fill: #383838;
     background-color: #383838;
     color: #cccccc;
