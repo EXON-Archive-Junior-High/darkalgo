@@ -5,7 +5,23 @@ function inject(path, type) {
     chrome.tabs.insertCSS({code: path, runAt: "document_end"});
   }
 }
+let dark = false
+
+let darkbtn = $("input[type='checkbox']")
+darkbtn.click(() => {
+  if (dark) {
+    dark = false
+    $("#isDark").text = "Off"
+  }
+  else if (!dark) {
+    dark = true
+    $("#isDark").text = "On"
+  }
+})
 
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-  inject("./theme/black.css", "file");
+  if (dark){
+    inject("./theme/black.css", "file");
+  }
+
 })
