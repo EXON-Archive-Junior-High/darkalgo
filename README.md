@@ -6,10 +6,10 @@
 2. [DarkAlgo](https://raw.githubusercontent.com/1-EXON/DarkAlgo/master/css/style.user.css) 에 들어가 Install 한다.
 
 ## Preview (v1.2.4)
-<img src="images/home.png"> <br> 
-<img src="images/row.png">
+<img src="web/images/home.png"> <br> 
+<img src="web/images/row.png">
 <br>
-<img src="images/problem.png">
+<img src="web/images/problem.png">
 
 ## 이슈와 PR은 환영입니다!
 + 이슈를 보내주실 때 변경하고 싶은 부분을 캡처해서 보내주세요
