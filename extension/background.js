@@ -6,6 +6,8 @@ function inject(path, type) {
   }
 }
 
+const darkBtn = document.getElementById("isDark")
+
 let dark = true
 
 
