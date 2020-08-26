@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css" style="width: 1000px; height: 1000px;">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <title>DarkAlgo</title>
 </head>
 <body>
@@ -25,7 +23,7 @@
     <div class="main">
         <h1>Info</h1>
         <div class="box">
-            <p class="main-info">DarkAlgo 는 학생 개발자 엑슨이 개발한 백준 다크 테마 확장프로그램입니다.</p>
+            <h6 class="main-info">DarkAlgo 는 학생 개발자 엑슨이 개발한 백준 다크 테마 확장프로그램입니다.</p>
         </div>
 
         <h1>Dark</h1>
@@ -39,7 +37,12 @@
 
     </div>
 
-
-
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $( document ).ready( function() {
+            $( '#isDark' ).text('f');
+        } );
+    </script>
+    <script src="onoff.js"></script>
 </body>
 </html>
