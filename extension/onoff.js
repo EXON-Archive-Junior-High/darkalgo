@@ -1,26 +1,20 @@
-// $( document ).ready(() => {
-//     alert("11")
-//     let dark = false
-
-//     $("p").text("On")
-
-//     let darkbtn = $("input[type='checkbox']")
-//     darkbtn.click(() => {
-//     if (dark) {
-//         alert("Off")
-//         dark = false
-//         $("#isDark").text("Off")
-//     }
-//     else if (!dark) {
-//         alert("On")
-//         dark = true
-//         $("#isDark").text("On")
-//     }
-//     })
-// })
-
 const onOff = document.querySelector("#isDark")
+const Darkbtn = document.querySelector("#DarkBtn")
+
 onOff.innerText = loadDark()
+Darkbtn.addEventListener("click", changeDark)
+
+function changeDark(event){
+    const btn = event.target;
+    if (loadDark() == "Off"){
+        onOff.innerText = "On"
+        saveDark("On")
+    }
+    else if (loadDark() == "On"){
+        onOff.innerText = "Off"
+        saveDark("Off")
+    }
+}
 
 function saveDark(coordsObj) {
     localStorage.setItem("dark", coordsObj);

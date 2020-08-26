@@ -6,13 +6,14 @@ function inject(path, type) {
   }
 }
 
-
-let dark = true
-
+function loadDark() {
+  const loadedDark = localStorage.getItem("dark");
+  return loadedDark
+}
 
 
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-  if (dark){
+  if (loadDark() == "On"){
     inject("./theme/black.css", "file");
   }
 
