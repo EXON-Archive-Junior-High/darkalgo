@@ -18,3 +18,21 @@
 //     }
 //     })
 // })
+
+const onOff = document.querySelector("#isDark")
+onOff.innerText = loadDark()
+
+function saveDark(coordsObj) {
+    localStorage.setItem("dark", coordsObj);
+}
+
+
+function loadDark() {
+    const loadedDark = localStorage.getItem("dark");
+    if (loadedDark === null) {
+        saveDark("Off")
+        return "Off"
+    } else {
+        return loadedDark
+    }
+}

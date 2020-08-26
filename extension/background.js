@@ -6,9 +6,9 @@ function inject(path, type) {
   }
 }
 
-const darkBtn = document.getElementById("isDark")
 
 let dark = true
+
 
 
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
