@@ -58,7 +58,9 @@ body > div.wrapper > div.container.content > div.row > div > div > div.panel-bod
 #sampleoutput7 > div > h2, body > div.wrapper > div.container.content > div > div > div.headline > h2 > a,
 body > div.wrapper > div.container.content > div.row > div > div > div.panel-body > div.content.post > ul > li,
 body > div.wrapper > div.container.content > div.row > div > div > div.panel-body > div.content.post > ul > li > ul > li,
-#board-notice > div > p{
+#board-notice > div > p, body > div.wrapper > div.container.content > div > div > div > div.panel-heading > h3 > a, 
+body > div.wrapper > div.container.content > div > div > div > div.panel-heading > h3,
+#po-sort-f > div > section > div.inline-group > label, #po-up-f > section > div > label,#po-tier-f > section > div > label, #po-st-f > div > section > div > label{
     color: #c9c9c9;
 }
 
@@ -104,7 +106,8 @@ body > div.wrapper > div.container.content > div.row > div > div > div.col-md-9 
 #payment-form, #payment-form > header, #payment-form > fieldset, #product, #sample-input-7, #sample-output-7,
 body > div.wrapper > div.container.content > div > div.col-md-2 > ul > li > a, body > div.wrapper > div.container.content > div > div.col-md-10 > div.row > div > div > table > tbody > tr > td,
 body > div.wrapper > div.container.content > div > div.col-md-10 > div.row > div > div > div.panel-heading,
-#board_write_form > div > div > input, #board_category{
+#board_write_form > div > div > input, #board_category, #po-form, #po-sort-f, #po-up-f, #po-tier-f, #po-st-f,
+#po-form > fieldset, #po-form > footer, #po-etc-f, #po-ac-f, #po-etc-f > section > div > label, #po-ac-f > section > div > label{
     fill: #383838;
     background-color: #383838;
     color: #cccccc;
