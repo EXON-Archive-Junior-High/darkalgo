@@ -5,7 +5,7 @@
 1. [DarkAlgo](https://chrome.google.com/webstore/detail/darkalgo/denihfakafbbponodcpmchiglahicadg?hl=ko&) 확장 프로그램을 설치한다.
 
 ## Preview (v1.2.4)
-<img src="web/images/home.png"> <br> 
+<img src="https://lh3.googleusercontent.com/1X452-iWjCznWN3tjduSK7kyjaPwO7hKEfEJ08Ykjvr64kAm9Ghl20g8Qs3oy_GfbjEO44FhQg=w640-h400-e365"> <br> 
 <img src="web/images/row.png">
 <br>
 <img src="web/images/problem.png">
