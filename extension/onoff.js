@@ -6,25 +6,25 @@ Darkbtn.addEventListener("click", changeDark)
 
 function changeDark(event){
     const btn = event.target;
-    if (loadDark() == "Off"){
+    if (load("dark") == "Off"){
         onOff.innerText = "On"
-        saveDark("On")
+        save("dark", "On")
     }
-    else if (loadDark() == "On"){
+    else if (load("dark") == "On"){
         onOff.innerText = "Off"
-        saveDark("Off")
+        save("dark", "Off")
     }
 }
 
-function saveDark(coordsObj) {
-    localStorage.setItem("dark", coordsObj);
+function save(item, coordsObj) {
+    localStorage.setItem(item, coordsObj);
 }
 
 
-function loadDark() {
-    const loadedDark = localStorage.getItem("dark");
+function load(item) {
+    const loadedDark = localStorage.getItem(item);
     if (loadedDark === null) {
-        saveDark("Off")
+        save("dark", "Off")
         return "Off"
     } else {
         return loadedDark
