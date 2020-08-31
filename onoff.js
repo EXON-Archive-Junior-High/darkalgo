@@ -1,3 +1,4 @@
+const body = document.body;
 const onOff = document.querySelector("#isDark")
 const Darkbtn = document.querySelector("#DarkBtn")
 
@@ -33,4 +34,9 @@ function load(item) {
     } else {
         return loadedDark
     }
-}
+}    
+/* 광고 삭제 */
+let advertising = document.querySelector('body > div.wrapper > div.container.content > div.text-center.no-print > a > img.visible-xs-block')
+console.log(advertising)
+console.log(advertising.parentElement)
+advertising.parentElement.removeChild(advertising)
