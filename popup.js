@@ -25,7 +25,6 @@ function save(item, coordsObj) {
     localStorage.setItem(item, coordsObj);
 }
 
-
 function load(item) {
     const loadedDark = localStorage.getItem(item);
     if (loadedDark === null) {
@@ -35,8 +34,3 @@ function load(item) {
         return loadedDark
     }
 }    
-/* 광고 삭제 */
-let advertising = document.querySelector('body > div.wrapper > div.container.content > div.text-center.no-print > a > img.visible-xs-block')
-console.log(advertising)
-console.log(advertising.parentElement)
-advertising.parentElement.removeChild(advertising)

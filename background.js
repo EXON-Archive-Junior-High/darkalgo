@@ -15,9 +15,9 @@ function load(item) {
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     if (load("dark") == "On"){
         inject("./theme/black.css", "file");
+
     }
-    
 
-
+        
 })
 
