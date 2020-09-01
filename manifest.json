@@ -2,7 +2,7 @@
     "manifest_version": 2,
    
     "name": "DarkAlgo",
-    "version": "1.1.1",
+    "version": "1.2",
     "description": "Algo with Dark",
     "permissions": [
       "storage",
@@ -10,10 +10,10 @@
       "https://www.acmicpc.net/*"
     ],
     "icons": {
-      "16": "icon/16.png",
-      "32": "icon/32.png",
-      "64": "icon/64.png",
-      "128": "icon/128.png"
+      "16": "icon/black/16.png",
+      "32": "icon/black/32.png",
+      "64": "icon/black/64.png",
+      "128": "icon/black/128.png"
     },
 
     "background": {
@@ -28,7 +28,7 @@
     }],
 
     "browser_action": {
-      "default_icon": "icon/white.png",
+      "default_icon": "icon/black/1000.png",
       "default_title": "DarkAlgo",
       "default_popup": "index.html"
     },
