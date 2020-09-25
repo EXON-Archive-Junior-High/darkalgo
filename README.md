@@ -3,7 +3,7 @@
 
 ## 사용법
 1. [DarkAlgo](https://chrome.google.com/webstore/detail/darkalgo/denihfakafbbponodcpmchiglahicadg?hl=ko&) 확장 프로그램을 설치한다.
-- 너무 css 적용 속도가 느리시다면 [Sytlus](https://github.com/1-EXON/DarkAlgo/blob/master/Stylus.md)를 이용해보세요! (물론 확장 프로그램을 같이 이용하면 광고 차단 기능 등을 사용할 수 있어요! 
+- 너무 css 적용 속도가 느리시다면 [Sytlus](https://github.com/1-EXON/DarkAlgo/blob/master/Stylus.md)를 이용해보세요! (물론 확장 프로그램을 같이 이용하면 광고 차단 기능 등을 사용할 수 있어요!)
 
 ## Preview (v1.2.4)
 <img src="preview/1.png"> <br> 
