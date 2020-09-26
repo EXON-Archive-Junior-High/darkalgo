@@ -1,9 +1,12 @@
 # DarkAlgo
-백준 다크다크 확장 프로그램
+백준 다크다크 확장 프로그램 <br>
+백준의 화이트 테마로 알고리즘 문제를 풀 때 <del>눈뽕</del> 눈이 아프신 적이 다들 있으시죠? <br>
+이러한 분들을 위해 개발한 백준 다크 확장 프로그램 입니다! <br>
+아래에 사용법을 확인해보세요!
 
 ## 사용법
-1. [DarkAlgo](https://chrome.google.com/webstore/detail/darkalgo/denihfakafbbponodcpmchiglahicadg?hl=ko&) 확장 프로그램을 설치한다.
-- 너무 css 적용 속도가 느리시다면 [Sytlus](https://github.com/1-EXON/DarkAlgo/blob/master/Stylus.md)를 이용해보세요! (물론 확장 프로그램을 같이 이용하면 광고 차단 기능 등을 사용할 수 있어요!)
+1. [DarkAlgo](https://chrome.google.com/webstore/detail/darkalgo/denihfakafbbponodcpmchiglahicadg?hl=ko&) 확장 프로그램을 설치한다. (크롬 확장프로그램 제출중..)
+- 너무 css 적용 속도가 느리시다면 [Sytlus](https://github.com/1-EXON/DarkAlgo/blob/master/Stylus.md)를 확장 프로그램과 같이 이용해보세요!
 
 ## Preview (v1.2.4)
 <img src="preview/1.png"> <br> 
