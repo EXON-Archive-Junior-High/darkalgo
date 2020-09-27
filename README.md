@@ -1,4 +1,5 @@
-# DarkAlgo
+# DarkAlgo 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F1-EXON%2FDarkAlgo&count_bg=%23415D9C&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%EB%B0%A9%EB%AC%B8&edge_flat=false)](https://hits.seeyoufarm.com)<br>
 백준 다크다크 확장 프로그램 <br>
 백준의 화이트 테마로 알고리즘 문제를 풀 때 <del>눈뽕</del> 눈이 아프신 적이 다들 있으시죠? <br>
 이러한 분들을 위해 개발한 백준 다크 확장 프로그램 입니다! <br>
