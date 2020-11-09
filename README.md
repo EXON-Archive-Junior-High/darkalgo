@@ -6,7 +6,7 @@
 아래에 사용법을 확인해보세요!
 
 ## 사용법
-1. [DarkAlgo](https://chrome.google.com/webstore/detail/darkalgo/denihfakafbbponodcpmchiglahicadg?hl=ko&) 확장 프로그램을 설치한다. (크롬 확장프로그램 제출중..)
+1. [DarkAlgo](https://chrome.google.com/webstore/detail/darkalgo/denihfakafbbponodcpmchiglahicadg?hl=ko&) 확장 프로그램을 설치한다.
 - 너무 css 적용 속도가 느리시다면 [Sytlus](https://github.com/1-EXON/DarkAlgo/blob/master/Stylus.md)를 확장 프로그램과 같이 이용해보세요!
 
 ## Preview (v1.2.4)
