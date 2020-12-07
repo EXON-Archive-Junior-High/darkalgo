@@ -4,7 +4,7 @@
 
 ## 사용법
 1. [DarkAlgo](https://chrome.google.com/webstore/detail/darkalgo/denihfakafbbponodcpmchiglahicadg?hl=ko&) 확장 프로그램을 설치한다.
-2. [Sytlus](https://github.com/1-EXON/DarkAlgo/blob/master/Stylus.md)에 따라 Sytlus 를 사용한다.
+2. [Sytlus](https://github.com/1-EXON/DarkAlgo/blob/master/Stylus.md) 의 설명에 따라 Sytlus 를 사용한다.
 
 ## Preview (v1.2.4)
 <img src="preview/1.png"> <br> 
